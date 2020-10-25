@@ -1,0 +1,25 @@
+{
+  "name": "coedit",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "firebase": "next build && next export && firebase deploy"
+  },
+  "dependencies": {
+    "codemirror": "^5.57.0",
+    "next": "9.5.2",
+    "ot-json0": "^1.1.0",
+    "prismjs": "^1.21.0",
+    "react": "16.13.1",
+    "react-codemirror2": "^7.2.1",
+    "react-dom": "16.13.1",
+    "realtime-notebook-client": "^1.0.4",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "@types/codemirror": "^0.0.98"
+  }
+}

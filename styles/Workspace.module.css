@@ -1,0 +1,139 @@
+.text_area {
+    width: 95%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    border: 1px solid #747373;
+    overflow: hidden;
+    outline: none;
+    resize: none;
+    font-size: 16px;
+    line-height: 160%;
+    border-radius: 3px;
+}
+
+.title {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    text-align: center;
+    font-family: normal bold 16px/1 "Open Sans", sans-serif;
+    outline: none;
+    resize: none;
+    font-weight: 700;
+    font-size: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    user-select: none;
+    letter-spacing: 30px;
+    margin-left: 15px;
+    color: #747373;
+}
+
+.cell_top {
+    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    display: flex;
+    justify-content: center;
+}
+
+.cell_wrapper {
+    margin: 2px 0;
+    padding: 20px 0;
+    position: relative;
+    width: 54%;
+    display: inline-block;
+    border-radius: 5px;
+    background-color:#262222;
+}
+
+.cell_wrapper_active {
+    margin: 2px 0;
+    padding: 20px 0;
+    position: relative;
+    width: 54%;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #463D43;
+}
+
+.cell_wrapper_hover {
+    margin: 2px 0;
+    padding: 20px 0;
+    position: relative;
+    width: 54%;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #383035;
+}
+
+.button_box {
+    margin-top: 14px;
+    width: 24px;
+    position: relative;
+    display: inline-block;
+}
+
+.button_hover_filler_vertical {
+    width: 4px;
+}
+
+.button_hover_filler_horizontal {
+    height: 4px;
+}
+
+.button_offset {
+    margin-top: 14px;
+    width: 28px;
+    position: relative;
+    display: inline-block;
+}
+
+.add_cell_button {
+    border-radius: 5px;
+    background-color: #463D43;
+    text-align: center;
+    line-height: 24px;
+    width: 24px;
+    cursor: pointer;
+    color: #747373;
+    font-family: normal bold 16px/1 "Open Sans", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    user-select: none;
+}
+.add_cell_button:hover {
+    background-color: #747373;
+    color: #463D43;
+}
+
+.remove_cell_button {
+    border-radius: 5px;
+    text-align: center;
+    line-height: 24px;
+    width: 24px;
+    background-color: #463D43;
+    cursor: pointer;
+    color: #747373;
+    font-family: normal bold 16px/1 "Open Sans", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    user-select: none;
+}
+.remove_cell_button:hover {
+    background-color: #747373;
+    color: #463D43;
+}
+
+.top_wrapper {
+    background-color: #262222;
+    min-height: 100vh;
+    height: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
